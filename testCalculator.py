@@ -1,11 +1,10 @@
-
-def test_add(operand1, operand2, expectedResult):
+def test_add (operand1, operand2, expectedResult):
   cal = Calculator()
-  assert cal.add(operand1, operand2) == expectedResult
+  assert cal.add (operand1, operand2) == expectedResult
 
-def test_subtract(operand1, operand2, expectedResult):
+def test_subtract (operand1, operand2, expectedResult):
   cal = Calculator()
-  assert cal.subtract(operand1, operand2) == expectedResult
+  assert cal.subtract (operand1, operand2) == expectedResult
 
 
 #@pytest.fixture()
